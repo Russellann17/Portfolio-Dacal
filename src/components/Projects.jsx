@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import project1 from '../assets/project1.png'; 
+
+import project1 from '../assets/photos/project1.png'; 
 import project2 from '../assets/project2.jpg';
 import project3 from '../assets/project3.jpg';
 import project1a from '../assets/project1a.png'; // Additional images
