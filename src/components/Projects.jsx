@@ -4,7 +4,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import project1 from '../assets/photos/project1.png'; 
 import project2 from '../assets/photos/project2.jpg';
+import project2a from '../assets/photos/project2a.jpg';
+import project2b from '../assets/photos/project2b.jpg';
 import project3 from '../assets/photos/project3.jpg';
+import project3a from '../assets/photos/project3a.jpg';
+import project3b from '../assets/photos/project3b.jpg';
 import project1a from '../assets/photos/project1a.png'; // Additional images
 import project1b from '../assets/photos/project1b.png';
 
@@ -16,12 +20,12 @@ const projects = [
   },
   {
     title: "Book Reservation System",
-    images: [project2],
+    images: [project2, project2a, project2b],
     description: "This project is made using Java.",
   },
   {
     title: "Project Title 3",
-    images: [project3],
+    images: [project3, project3a, project3b],
     description: "Detailed description of Project 3.",
   },
   // Add more projects as needed
