@@ -5,6 +5,7 @@ import AboutMe from './components/Aboutme';
 import Resume from './components/Resume';
 import Certifications from './components/Certifications';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Resume />
         <Certifications />
         <Projects />
+        <Footer />
       </div>
     </Router>
   );

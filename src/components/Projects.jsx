@@ -4,31 +4,42 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import project1 from '../assets/photos/Project1.png'; 
 import project2 from '../assets/photos/Project2.jpg';
-import project2a from '../assets/photos/Project2a.jpg';
-import project2b from '../assets/photos/Project2b.jpg';
 import project3 from '../assets/photos/Project3.jpg';
 import project3a from '../assets/photos/Project3a.jpg';
 import project3b from '../assets/photos/Project3b.jpg';
 import project1a from '../assets/photos/Project1a.png';
 import project1b from '../assets/photos/Project1b.png';
+import project4 from '../assets/photos/Project4.png';
+import project5 from '../assets/photos/Project5.png';
+import project5a from '../assets/photos/Project5a.png';
+import project5b from '../assets/photos/Project5b.png';
 
 const projects = [
   {
-    title: "Patients Record Management System",
+    title: "Patient Record Management System",
     images: [project1, project1a, project1b],
-    description: "This project is made using Visual Basic.",
+    description: "The Patient Record Management System, built with Visual Basic and MySQL, efficiently manages and secures patient information in healthcare settings.",
   },
   {
     title: "Book Reservation System",
-    images: [project2, project2a, project2b],
-    description: "This project is made using Java.",
+    images: [project2],
+    description: "The Book Reservation System, developed using Java, facilitates efficient management of book reservations in a library setting.",
   },
   {
-    title: "Project Title 3",
+    title: "Resort Reservation System",
     images: [project3, project3a, project3b],
-    description: "Detailed description of Project 3.",
+    description: "The Resort Reservation System, developed using Java, facilitates efficient management of resort bookings.",
   },
-  // Add more projects as needed
+  {
+    title: "Airline Booking System",
+    images: [project4],
+    description: "The Airline Booking System, developed using Java, simplifies flight reservations by managing bookings, passenger details, and flight schedules effectively.",
+  },
+  {
+    title: "Water Quality Report Monitoring System",
+    images: [project5, project5a, project5b],
+    description: "The Water Quality Report Monitoring System, built with Laravel and MySQL, enables DENR XI to efficiently track, manage, and analyze water quality reports for environmental monitoring.",
+  },
 ];
 
 const Projects = () => {
@@ -72,14 +83,7 @@ const Projects = () => {
       {/* Modal */}
       {selectedProject && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg p-6 max-w-xl mx-auto relative">
-            <button
-              className="absolute top-4 right-4 text-gray-700 hover:text-gray-900"
-              onClick={closeModal}
-              aria-label="Close modal"
-            >
-              &times;
-            </button>
+          <div className="bg-white rounded-lg p-6 max-w-xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">{selectedProject.title}</h3>
             
             {/* Carousel */}

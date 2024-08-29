@@ -21,20 +21,9 @@ const AboutMe = () => {
               BS in Information Technology Student of University of Mindanao
             </p>
             <p className="text-xl text-justify mb-6">
-              I am an aspiring IT intern with foundational knowledge in basic programming languages, eager to apply my skills and enthusiasm to support your projects.
+            Aspiring IT intern with a solid foundation in programming, eager to apply skills and enthusiasm to dynamic projects. Committed to learning, problem-solving, and effective team collaboration.  
             </p>
             {/* Centered Contact Details with Justified Fields */}
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md mt-12 flex flex-col items-center">
-              <h3 className="text-2xl font-semibold mb-4">Contact Details</h3>
-              <div className="text-left w-full max-w-sm">
-                <p className="text-lg mb-2">
-                  <span className="font-bold">Phone:</span> 0906 233 6467
-                </p>
-                <p className="text-lg mb-2">
-                  <span className="font-bold">Email:</span> <a href="mailto:r.dacal.510968@umindanao.edu.ph" className="text-blue-500 hover:underline">r.dacal.510968@umindanao.edu.ph</a>
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
