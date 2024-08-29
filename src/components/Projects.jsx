@@ -54,11 +54,11 @@ const Projects = () => {
   };
 
   return (
-    <section className="text-center my-6 px-4">
-      <h2 className="text-3xl font-bold mb-6 pb-4 border-b-2 border-blue-500 inline-block mt-10">
-        PROJECTS
+    <section id="projects-section" className="text-center my-6 px-4 mt-20">
+      <h2 className="text-4xl font-bold mb-6 pb-4 border-b-2 border-blue-500 inline-block mt-10">
+        P R O J E C T S
       </h2>
-      <p className="mt-4 mb-8">Click on a project to see more details.</p>
+      <p className="mt-4 mb-8">Just click on a project to see more details.</p>
 
       {/* Project Cards Container */}
       <div className="flex flex-wrap justify-center gap-6 mx-auto max-w-screen-xl">

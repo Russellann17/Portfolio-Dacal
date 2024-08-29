@@ -3,7 +3,7 @@ import profilePic from '../assets/photos/profile.jpg'; // Adjust the path if nec
 
 const AboutMe = () => {
   return (
-    <section className="p-8 mb-20">
+    <section id="aboutme-section" className="p-8 mb-20 mt-20">
       <div className="max-w-4xl mx-auto mt-20">
         <div className="flex items-center mb-12"> 
           <div className="flex-shrink-0 mr-8"> 

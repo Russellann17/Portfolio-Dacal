@@ -6,9 +6,9 @@ import cert4 from '../assets/photos/Cisco-Cyber.jpg';
 
 const Certifications = () => {
   return (
-    <section className="text-center my-6 px-4">
-      <h2 className="text-3xl font-bold mb-6 pb-4 border-b-2 border-blue-500 inline-block mt-10">
-        CERTIFICATIONS
+    <section id="certifications-section" className="text-center my-6 px-4  mb-10 mt-20">
+      <h2 className="text-4xl font-bold mb-6 pb-4 border-b-2 border-blue-500 inline-block mt-10">
+        C E R T I F I C A T I O N S
       </h2>
 
       <div className="mt-4">

@@ -4,11 +4,13 @@ import resumePreview from '../assets/photos/resume-preview.png';
 
 const Resume = () => {
   return (
-    <section className="text-center my-8 px-4">
-      <h3 className="text-3xl font-bold mb-6">RESUME</h3>
+    <section id="resume-section" className="text-center my-8 px-4">
+      <h2 className="text-4xl font-bold mb-6 pb-4 border-b-2 border-blue-500 inline-block mt-10">
+        R E S U M E
+      </h2>
 
       {/* Resume Preview Image */}
-      <div className="mb-6">
+      <div className="mb-6 mt-10">
         <img
           src={resumePreview}
           alt="Resume Preview"
