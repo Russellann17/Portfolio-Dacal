@@ -9,7 +9,7 @@ import project2b from '../assets/photos/Project2b.jpg';
 import project3 from '../assets/photos/Project3.jpg';
 import project3a from '../assets/photos/Project3a.jpg';
 import project3b from '../assets/photos/Project3b.jpg';
-import project1a from '../assets/photos/Project1a.png'; // Additional images
+import project1a from '../assets/photos/Project1a.png';
 import project1b from '../assets/photos/Project1b.png';
 
 const projects = [
@@ -43,24 +43,26 @@ const Projects = () => {
   };
 
   return (
-    <section className="text-center my-6 px-4"> {/* Match the margin and padding of Certifications */}
+    <section className="text-center my-6 px-4">
       <h2 className="text-3xl font-bold mb-6 pb-4 border-b-2 border-blue-500 inline-block mt-10">
         PROJECTS
       </h2>
       <p className="mt-4 mb-8">Click on a project to see more details.</p>
 
       {/* Project Cards Container */}
-      <div className="flex flex-wrap justify-center gap-6 mx-auto max-w-screen-xl"> {/* Match container styling */}
+      <div className="flex flex-wrap justify-center gap-6 mx-auto max-w-screen-xl">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="border-2 border-gray-300 rounded-lg p-4 max-w-lg cursor-pointer" // Match padding and max width
+            className="border-2 border-gray-300 rounded-lg p-4 max-w-lg cursor-pointer hover:shadow-lg transition-shadow"
             onClick={() => openModal(project)}
+            role="button"
+            aria-label={`View details for ${project.title}`}
           >
             <img
               src={project.images[0]}
               alt={project.title}
-              className="w-full h-50 object-cover rounded-lg mb-4"
+              className="w-full h-48 object-cover rounded-lg mb-4"
             />
             <p className="text-lg font-medium">{project.title}</p>
           </div>
@@ -70,7 +72,14 @@ const Projects = () => {
       {/* Modal */}
       {selectedProject && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg p-6 max-w-xl mx-auto">
+          <div className="bg-white rounded-lg p-6 max-w-xl mx-auto relative">
+            <button
+              className="absolute top-4 right-4 text-gray-700 hover:text-gray-900"
+              onClick={closeModal}
+              aria-label="Close modal"
+            >
+              &times;
+            </button>
             <h3 className="text-2xl font-bold mb-4">{selectedProject.title}</h3>
             
             {/* Carousel */}
@@ -79,7 +88,7 @@ const Projects = () => {
               showThumbs={false}
               infiniteLoop={true}
               autoPlay={false}
-              dynamicHeight={false}
+              dynamicHeight={true}
               className="mb-4"
             >
               {selectedProject.images.map((image, index) => (
