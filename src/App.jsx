@@ -12,7 +12,6 @@ const App = () => {
       <div className="min-h-screen w-screen flex flex-col ">
         <Navbar />
         <AboutMe />
-        <Resume />
         <Certifications />
         <Projects />
       </div>
