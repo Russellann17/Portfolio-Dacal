@@ -1,6 +1,6 @@
 import React from 'react';
-import resumePdf from '../assets/resume.pdf'; // Adjust the path if necessary
-import resumePreview from '../assets/resume-preview.png';
+import resumePdf from '../assets/photos/resume.pdf'; // Adjust the path if necessary
+import resumePreview from '../assets/photos/resume-preview.png';
 
 const Resume = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../assets/profile.jpg'; // Adjust the path if necessary
+import profilePic from '../assets/photos/profile.jpg'; // Adjust the path if necessary
 
 const AboutMe = () => {
   return (

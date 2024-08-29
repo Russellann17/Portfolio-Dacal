@@ -3,10 +3,10 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import project1 from '../assets/photos/project1.png'; 
-import project2 from '../assets/project2.jpg';
-import project3 from '../assets/project3.jpg';
-import project1a from '../assets/project1a.png'; // Additional images
-import project1b from '../assets/project1b.png';
+import project2 from '../assets/photos/project2.jpg';
+import project3 from '../assets/photos/project3.jpg';
+import project1a from '../assets/photos/project1a.png'; // Additional images
+import project1b from '../assets/photos/project1b.png';
 
 const projects = [
   {

@@ -1,8 +1,8 @@
 import React from 'react';
-import cert1 from '../assets/Mta-Java.jpg'; 
-import cert2 from '../assets/Its-Network.jpg';
-import cert3 from '../assets/Its-Cyber.jpg';
-import cert4 from '../assets/Cisco-Cyber.jpg'; 
+import cert1 from '../assets/photos/Mta-Java.jpg'; 
+import cert2 from '../assets/photos/Its-Network.jpg';
+import cert3 from '../assets/photos/Its-Cyber.jpg';
+import cert4 from '../assets/photos/Cisco-Cyber.jpg'; 
 
 const Certifications = () => {
   return (
