@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-import project1 from '../assets/photos/project1.png'; 
-import project2 from '../assets/photos/project2.jpg';
-import project2a from '../assets/photos/project2a.jpg';
-import project2b from '../assets/photos/project2b.jpg';
-import project3 from '../assets/photos/project3.jpg';
-import project3a from '../assets/photos/project3a.jpg';
-import project3b from '../assets/photos/project3b.jpg';
-import project1a from '../assets/photos/project1a.png'; // Additional images
-import project1b from '../assets/photos/project1b.png';
+import project1 from '../assets/photos/Project1.png'; 
+import project2 from '../assets/photos/Project2.jpg';
+import project2a from '../assets/photos/Project2a.jpg';
+import project2b from '../assets/photos/Project2b.jpg';
+import project3 from '../assets/photos/Project3.jpg';
+import project3a from '../assets/photos/Project3a.jpg';
+import project3b from '../assets/photos/Project3b.jpg';
+import project1a from '../assets/photos/Project1a.png'; // Additional images
+import project1b from '../assets/photos/Project1b.png';
 
 const projects = [
   {
